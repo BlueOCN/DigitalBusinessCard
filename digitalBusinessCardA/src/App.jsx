@@ -8,9 +8,8 @@ function App() {
 
   return (
     <div className="card">
+      <img className="info--image" src="./front_img.png"/>
       <Info />
-      <About />
-      <Interests />
       <Footer />
     </div>
   )
