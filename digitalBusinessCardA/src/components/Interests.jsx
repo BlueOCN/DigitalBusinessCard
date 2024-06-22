@@ -4,8 +4,8 @@ function Interests() {
 
     return (
       <div>
-        <h2>Interests</h2>
-        <h4>Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. 
+        <h2 className="inter--title">Interests</h2>
+        <h4 className="inter--text">Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. 
           Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.</h4>
       </div>
     )

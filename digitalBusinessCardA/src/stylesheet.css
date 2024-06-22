@@ -1,88 +1,140 @@
 .card {
-    width: 550px;
-    height: 864px;
-    background-color: #23252C;
+
     display: flex;
-    align-items: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+
+    background: #23252C;
+
 }
+
+
+.info {
+    
+    position: relative;
+    /* width: 317px;
+    height: 399px; */
+    width: 317px;
+    height: 500px;
+    /* left: 116px;
+    top: 361px; */
+    left: 0;
+    top: 0;
+
+    
+    background: #1A1B21;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
 
 .info--image {
     /* Rectangle 90 */
 
-    position: absolute;
+    position: relative;
     width: 317px;
     height: 317px;
-    left: 116px;
-    top: 44px;
+    /* left: 116px;
+    top: 44px; */
 
     /*background: url(.png);*/
     border-radius: 10px 10px 0px 0px;
 
 }
 
+
 .info--name {
 
-    position: absolute;
+    position: relative;
     width: 178.06px;
     height: 25.81px;
-    left: 186px;
-    top: 382px;
+    left: 70px;
+    top: 21px;
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 25px;
     line-height: 30px;
+    letter-spacing: 0.5px;
     text-align: center;
 
     color: #FFFFFF;
+    margin: 0;
 
 }
 
 .info--position {
     
-    position: absolute;
+    position: relative;
     width: 178.06px;
     height: 14.19px;
-    left: 186px;
-    top: 414px;
+    /* left: 186px;
+    top: 414px; */
+    left: 70px;
+    top: 27.19px;
 
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-size: 12.8px;
     line-height: 15px;
+    letter-spacing: 0.3px;
     text-align: center;
 
     color: #F3BF99;
+    margin: 0;
 
 }
 
 .info--site {
 
-    position: absolute;
+    position: relative;
     width: 228px;
     height: 16px;
-    left: 161px;
-    top: 437px;
+    /* left: 161px;
+    top: 437px; */
+    left: 45px;
+    top: 36px;
 
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
+    font-style: regular;
+    font-weight: 200;
     font-size: 10.24px;
     line-height: 150%;
+    letter-spacing: 0.3px;
     /* identical to box height, or 15px */
     text-align: center;
 
     color: #F5F5F5;
+    margin: 0;
+    
 
+}
+.info--buttons {
+
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 13px 9px 11px;
+    gap: 8px;
+
+    position: relative;
+    top: 51px;
 }
 
 .info--email {
-    /* Button */
-
-    box-sizing: border-box;
 
     /* Auto layout */
     display: flex;
@@ -92,11 +144,11 @@
     padding: 9px 13px 9px 11px;
     gap: 8px;
 
-    position: absolute;
+    position: relative;
     width: 115px;
     height: 34px;
-    left: 151px;
-    top: 468px;
+    /* left: 151px;
+    top: 468px; */
 
     /* white */
     background: #FFFFFF;
@@ -105,6 +157,18 @@
     /* shadow/sm */
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
+
+    /* Text */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    /* gray/700 */
+    color: #374151;
 
 }
 
@@ -119,14 +183,186 @@
     padding: 9px 13px 9px 11px;
     gap: 8px;
 
-    position: absolute;
+    position: relative;
     width: 115px;
     height: 34px;
-    left: 283px;
-    top: 468px;
+    /* left: 283px;
+    top: 468px; */
 
     background: #5093E2;
     /* shadow/sm */
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
+
+    /* Text */
+
+    font-family: 'Inter';
+    font-style: medium;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    /* gray/700 */
+    color: #FFFFFF;
+}
+
+.material-icons {
+    font-size: 15px;
+}
+
+.info--in--icon {
+    background: url('./assets/In\ Icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    /* background-color: #23252C; */
+
+}
+
+.about--title {
+    position: relative;
+    width: 242.71px;
+    height: 21px;
+    /* left: 152px;
+    top: 535px; */
+
+    font-family: 'Inter';
+    font-style: Bold;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    color: #F5F5F5;
+    /* margin: 0; */
+}
+
+.about--text {
+
+    position: relative;
+    width: 247px;
+    height: 61px;
+    /* left: 152px;
+    top: 561px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+    color: #DCDCDC;
+    /* margin: 0; */
+
+}
+
+.inter--title {
+    
+    position: relative;
+    width: 242.71px;
+    height: 21px;
+    /* left: 152px;
+    top: 649px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    color: #F5F5F5;
+    /* margin: 0; */
+}
+
+.inter--text {
+
+    position: relative;
+    width: 247px;
+    height: 61px;
+    /* left: 152px;
+    top: 675px; */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+    color: #DCDCDC;
+    /* margin: 0; */
+
+}
+
+footer {
+
+    position: relative;
+    width: 317px;
+    height: 64px;
+    /* left: 116px;
+    top: 760px; */
+
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+.icon--tw {
+    /* Twitter Icon */
+
+    position: absolute;
+    left: 73px;
+    right: 61.09%;
+    /* top: 89.75%; */
+    top: 19px;
+    bottom: 7.37%;
+
+}
+
+.icon--fb {
+    /* Facebook Icon */
+
+    position: absolute;
+    left: 122px;
+    right: 52.18%;
+    top: 19px;
+    bottom: 7.37%;
+
+}
+
+.icon--gr {
+    /* Instagram Icon */
+
+    position: absolute;
+    left: 171px;
+    right: 43.27%;
+    top: 19px;
+    bottom: 7.37%;
+
+}
+
+.icon--gh {
+    /* GitHub Icon */
+
+    position: absolute;
+    left: 219.5px;
+    right: 34.45%;
+    top: 19px;
+    bottom: 7.32%;
+
 }

@@ -9,8 +9,8 @@ function Info() {
             <h3 className="info--position">Frontend Developer</h3>
             <h4 className="info--site">laurasmith.website</h4>
             <div className="info--buttons">
-                <button className="info--email">Email</button>
-                <button className="info--in">Linkedin</button>
+                <button className="info--email"><i className="material-icons">email</i>Email</button>
+                <button className="info--in"><span className="info--in--icon"></span>LinkedIn</button>
             </div>
         </div>
     )
