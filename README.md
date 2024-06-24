@@ -1,5 +1,9 @@
 # DigitalBusinessCard
-Digitial Business Card -> React
+Digitial Business Cards using React
+- Card A
+- Card B
+- Card C
+- Card D
 
 ## Check Node and NPM versions?
 Make sure node and npm are installed.
