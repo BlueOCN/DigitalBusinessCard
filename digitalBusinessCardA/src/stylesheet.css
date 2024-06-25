@@ -10,6 +10,9 @@
     height: 100vh;
     left: 0px;
     top: 0px;
+    
+    min-width: 550px;
+    min-height: 868px;
 
     background: #23252C;
 
