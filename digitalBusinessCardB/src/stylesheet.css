@@ -10,6 +10,9 @@
     top: 0px;
     left: 0px;
 
+    min-width: 550px;
+    min-height: 868px;
+
     background: #23252C;
 }
 
