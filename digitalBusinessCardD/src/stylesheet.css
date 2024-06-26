@@ -1,0 +1,159 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    min-width: 550px;
+    min-height: 960px;
+
+    background: #23252C;
+}
+
+.info {
+    width: 317px;
+    height: 399px;
+
+    background-color: #F5F5F5;
+}
+
+.info--name {
+    position: relative;
+    margin-bottom: 0px;
+
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #2B283A;
+}
+
+.info--position {
+    position: relative;
+    margin-top: 3px;
+    margin-bottom: 0px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #F47D27;
+}
+
+.info--website {
+    position: relative;
+    margin-top: 7px;
+    margin-bottom: 18px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #4A4E74;
+}
+
+.info > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    position: relative;
+    width: 247px;
+    height: 34px;
+    left: 35px;
+
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    color: #374151;
+
+    border: 1px solid #D1D5DB;
+
+    cursor: pointer; /* Show pointer cursor on hover */
+
+    background-color: #FFFFFF;
+
+    border-radius: 6px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.05);
+
+
+}
+
+.info--email--icon {
+    background-image: url(./assets/Email\ Icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+.info > button:hover {
+    background-color: #F47D27;
+    border-color: #374151;
+}
+
+.info--details {
+    position: relative;
+    left: 35px;
+    top: 25px;
+
+    max-width: 247px;
+}
+
+.info--details > h2 {
+    position: relative;
+
+    margin-top: 0;
+    margin-bottom: 2px;
+
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: left;
+    color: #2B283A;
+}
+
+.info--details > p {
+    position: relative;
+
+    margin-top: 0;
+    margin-bottom: 12px;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: left;
+    color: #4A4E74;
+}
+
+.shoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+
+    position: relative;
+    width: 317px;
+    height: 64px;
+
+    background-color: #D5D4D8;
+
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 40px 4px rgba(255, 255, 255, 0.2);
+}
