@@ -2,9 +2,7 @@
 
 function Header () {
     return (
-        <header>
-            <img src="./front_img.png" alt="cover_image" />
-        </header>
+        <img className="header--img" src="./front_img.png" alt="cover_image" />
     )
 }
 

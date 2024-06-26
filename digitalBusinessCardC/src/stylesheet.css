@@ -1,23 +1,206 @@
+/* Base container for the card */
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
 
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0px;
-    top: 0px;
+    position: absolute; /* Position relative to the nearest positioned ancestor */
+    width: 100%; /* Take up full width */
+    height: 100%; /* Take up full height */
+    left: 0px; /* Align left edge with parent */
+    top: 0px; /* Align top edge with parent */
 
-    background: #23252C;
+    min-width: 550px; /* Minimum width to prevent content from shrinking too much */
+    min-height: 868px; /* Minimum height to ensure content fits */
 
+    background-color: #23252C; /* Dark background color */
 }
 
-.content {
-    width: 317px;
+/* Header image styling */
+.header--img {
+    position: relative; /* Position relative to its normal position */
+    width: 317px; /* Set fixed width */
+    height: 317px; /* Set fixed height */
+}
 
-    background-color: #F5F5F5;
+/* Content section styling */
+.content {
+    position: relative; /* Position relative to its normal position */
+    width: 317px; /* Set fixed width */
+    height: 399px; /* Set fixed height */
+    background-color: #F5F5F5; /* Light background color */
+}
+
+/* Name styling within the content */
+.content--name {
+    position: relative; /* Position relative to its normal position */
+    margin-top: 20px; /* Add top margin */
+    margin-bottom: 2px; /* Add bottom margin */
+
+    font-family: 'Inter', sans-serif; /* Use 'Inter' font */
+    /* font-style: bold; */ /* Commented out: Use font-weight instead */
+    font-weight: 700; /* Bold font weight */
+    font-size: 25px; /* Font size */
+    line-height: 30px; /* Line height */
+    text-align: center; /* Center-align text */
+
+    color: #2B283A; /* Dark text color */
+}
+
+/* Position styling within the content */
+.content--position {
+    position: relative; /* Position relative to its normal position */
+    margin: 0px; /* Remove margin */
+
+    font-family: 'Inter', sans-serif; /* Use 'Inter' font */
+    /* font-style: normal; */ /* Commented out: Use font-weight instead */
+    font-weight: 400; /* Normal font weight */
+    font-size: 12.8px; /* Font size */
+    line-height: 15px; /* Line height */
+    text-align: center; /* Center-align text */
+
+    color: #F47D27; /* Orange text color */
+}
+
+/* Website styling within the content */
+.content--website {
+    position: relative; /* Position relative to its normal position */
+    margin: 8px; /* Add margin */
+
+    font-family: 'Inter', sans-serif; /* Use 'Inter' font */
+    /* font-style: normal; */ /* Commented out: Use font-weight instead */
+    font-weight: 400; /* Normal font weight */
+    font-size: 10.24px; /* Font size */
+    line-height: 150%; /* Line height */
+    text-align: center; /* Center-align text */
+
+    color: #4A4E74; /* Gray text color */
+}
+
+/* Styling for buttons container */
+.content--buttons {
+    margin-top: 15px; /* Add top margin */
+
+    position: relative; /* Position relative to its normal position */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Horizontally center content */
+    gap: 17px; /* Gap between flex items */
+}
+
+/* Styling for email button */
+.content--buttons--email {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    gap: 8px; /* Gap between elements inside the button */
+
+    padding: 9px 13px 9px 11px; /* Padding for button */
+    
+    width: 115px; /* Fixed width for the button */
+    height: 34px; /* Fixed height for the button */
+
+    background-color: #FFFFFF; /* White background color */
+    border: 1px solid; /* Add a border */
+    border-color: #D1D5DB; /* Border color (remove borders) */
+
+    cursor: pointer; /* Show pointer cursor on hover */
+
+    border-radius: 6px; /* Rounded corners */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); /* Light shadow */
+
+    font-family: 'Inter', sans-serif; /* Use 'Inter' font */
+    /* font-style: Medium; */ /* Commented out: Use font-weight instead */
+    font-weight: 500; /* Medium font weight */
+    font-size: 14px; /* Font size */
+    line-height: 16px; /* Line height */
+    text-align: left; /* Align text to the left */
+    color: #374151; /* Dark text color */
+}
+
+/* Styling for email logo */
+.email--logo {
+    background-image: url(./assets/Email\ Icon.png); /* Set background image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center; /* Center the image */
+    height: 20px; /* Fixed height for the logo */
+    width: 20px; /* Fixed width for the logo */
+}
+
+/* Styling for email button on hover */
+.content--buttons--email:hover {
+    background-color: #F47D27; /* Change background color on hover */
+    border-color: #F47D27; /* Change border color on hover */
+    color: #374151; /* Change text color on hover */
+}
+
+/* Styling for LinkedIn button */
+.content--buttons--linkedin {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    gap: 8px; /* Gap between elements inside the button */
+
+    padding: 9px 13px 9px 11px; /* Padding for button */
+
+    width: 115px; /* Fixed width for the button */
+    height: 34px; /* Fixed height for the button */
+
+    background-color: #297FE5; /* Blue background color */
+    border: 1px solid; /* Add a border */
+    border-color: #297FE5; /* Border color */
+    border-radius: 6px; /* Rounded corners */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05); /* Light shadow */
+
+    cursor: pointer; /* Show pointer cursor on hover */
+
+    font-family: 'Inter'; /* Use 'Inter' font */
+    font-style: Medium; /* Set font style (Medium) */
+    font-weight: 400; /* Normal font weight */
+    font-size: 14px; /* Font size */
+    line-height: 16px; /* Line height */
+    text-align: left; /* Align text to the left */
+    color: #FFFFFF; /* White text color */
+}
+
+/* Styling for LinkedIn logo */
+.in--logo {
+    background-image: url(./assets/In\ Icon.png); /* Set background image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center; /* Center the image */
+    height: 20px; /* Fixed height for the logo */
+    width: 20px; /* Fixed width for the logo */
+}
+
+/* Styling for LinkedIn button on hover */
+.content--buttons--linkedin:hover {
+    background-color: #297FE5; /* Change background color on hover */
+    border-color: #FFFFFF; /* Change border color on hover */
+}
+
+.content--info {
+    position: relative; /* Element's position is relative */
+    left: 35px; /* Shifted 35 pixels to the right */
+    top: 25px; /* Shifted 25 pixels down */
+    max-width: 247px; /* Maximum width restricted to 247 pixels */
+}
+
+.content--info > h2 {
+    font-family: 'Inter'; /* Font family set to 'Inter' */
+    font-weight: 700; /* Bold font weight */
+    font-size: 16px; /* Font size of 16 pixels */
+    line-height: 150%; /* Line height 150% of font size */
+    color: #2B283A; /* Dark purple text color */
+    margin: 0px; /* No margin around h2 element */
+}
+
+.content--info > p {
+    font-family: 'Inter'; /* Font family set to 'Inter' */
+    font-weight: 400; /* Normal font weight */
+    font-size: 10.24px; /* Font size of 10.24 pixels */
+    line-height: 150%; /* Line height 150% of font size */
+    color: #4A4E74; /* Muted blue text color */
+    margin-top: 2px; /* 2-pixel margin at the top */
 }
 
 footer {
@@ -25,29 +208,34 @@ footer {
     width: 317px;
     height: 64px;
     background-color: #D5D4D8;
-    border-radius: 0% 0% 10px 10px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 3px 3px rgba(255, 255, 255, 0.4);
 }
 
+/* Twitter icon */
 .tw_icon {
-    position: relative;
-    left: 73px;
-    top: 19.5px;
+    position: relative; /* Relative positioning */
+    left: 73px; /* Move 73 pixels to the right */
+    top: 19.5px; /* Move 19.5 pixels down */
 }
 
+/* Facebook icon */
 .fb_icon {
-    position: relative;
-    left: 122px;
-    top: 19.5px;
+    position: absolute; /* Absolute positioning */
+    left: 122px; /* Place 122 pixels from the left edge */
+    top: 19.5px; /* Place 19.5 pixels down from the top */
 }
 
+/* Instagram icon */
 .ig_icon {
-    position: relative;
-    left: 171px;
-    top: 19.5px;
+    position: absolute; /* Absolute positioning */
+    left: 171px; /* Place 171 pixels from the left edge */
+    top: 19.5px; /* Place 19.5 pixels down from the top */
 }
 
+/* GitHub icon */
 .gh_icon {
-    position: relative;
-    left: 220px;
-    top: 19.5px;
+    position: absolute; /* Absolute positioning */
+    left: 220px; /* Place 220 pixels from the left edge */
+    top: 19.5px; /* Place 19.5 pixels down from the top */
 }
