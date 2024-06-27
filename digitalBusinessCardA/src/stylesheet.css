@@ -214,7 +214,7 @@
 }
 
 .info--in--icon {
-    background: url('/assets/In\ Icon.png');
+    background: url('./assets/In Icon.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 20px;
