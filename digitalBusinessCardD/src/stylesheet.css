@@ -92,7 +92,7 @@
 }
 
 .info--email--icon {
-    background-image: url('/assets/Email Icon.png');
+    background-image: url('./assets/Email Icon.png');
     background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
