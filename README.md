@@ -1,9 +1,9 @@
 # Digital Business Card Set
 Digitial Business Cards using React and Vite
-- [Type A](https://digitalbusinesscarda.netlify.app/)
-- [Type B](https://digitalbusinesscardb.netlify.app/)
-- [Type C](https://digitalbusinesscardc.netlify.app/)
-- [Type D](https://digitalbusinesscardd.netlify.app/)
+- [Type A](https://digitalbusinesscarda.netlify.app/ "Powered by Netlify.app")
+- [Type B](https://digitalbusinesscardb.netlify.app/ "Powered by Netlify.app")
+- [Type C](https://digitalbusinesscardc.netlify.app/ "Powered by Netlify.app")
+- [Type D](https://digitalbusinesscardd.netlify.app/ "Powered by Netlify.app")
 
 ## Getting Started
 ### Check Node and NPM versions?
