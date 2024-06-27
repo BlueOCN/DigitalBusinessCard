@@ -196,7 +196,7 @@
 }
 
 .about--email--icon {
-    background: url(./assets/Email\ Icon.png);
+    background: url('./assets/Email Icon.png');
     background-repeat: no-repeat;
     background-position: center;
     height: 20px;
