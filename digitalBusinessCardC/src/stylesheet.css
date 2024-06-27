@@ -217,6 +217,7 @@ footer {
     position: relative; /* Relative positioning */
     left: 73px; /* Move 73 pixels to the right */
     top: 19.5px; /* Move 19.5 pixels down */
+    cursor: pointer;
 }
 
 /* Facebook icon */
@@ -224,6 +225,7 @@ footer {
     position: absolute; /* Absolute positioning */
     left: 122px; /* Place 122 pixels from the left edge */
     top: 19.5px; /* Place 19.5 pixels down from the top */
+    cursor: pointer;
 }
 
 /* Instagram icon */
@@ -231,6 +233,7 @@ footer {
     position: absolute; /* Absolute positioning */
     left: 171px; /* Place 171 pixels from the left edge */
     top: 19.5px; /* Place 19.5 pixels down from the top */
+    cursor: pointer;
 }
 
 /* GitHub icon */
@@ -238,4 +241,9 @@ footer {
     position: absolute; /* Absolute positioning */
     left: 220px; /* Place 220 pixels from the left edge */
     top: 19.5px; /* Place 19.5 pixels down from the top */
+    cursor: pointer;
+}
+
+.tw_icon:hover, .fb_icon:hover, .ig_icon:hover, .gh_icon:hover {
+    filter: invert(74%) sepia(54%) saturate(321%) hue-rotate(331deg) brightness(102%) contrast(91%);
 }
