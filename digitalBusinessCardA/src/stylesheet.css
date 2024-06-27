@@ -344,6 +344,13 @@ footer {
     top: 19px;
     bottom: 7.37%;
 
+    cursor: pointer;
+
+}
+
+.icon--tw:hover {
+    /* filter: invert(63%) sepia(31%) saturate(5295%) hue-rotate(345deg) brightness(100%) contrast(92%); */
+    filter: invert(74%) sepia(54%) saturate(321%) hue-rotate(331deg) brightness(102%) contrast(91%);
 }
 
 .icon--fb {
@@ -355,6 +362,13 @@ footer {
     top: 19px;
     bottom: 7.37%;
 
+    cursor: pointer;
+
+}
+
+.icon--fb:hover {
+    /* filter: invert(63%) sepia(31%) saturate(5295%) hue-rotate(345deg) brightness(100%) contrast(92%); */
+    filter: invert(74%) sepia(54%) saturate(321%) hue-rotate(331deg) brightness(102%) contrast(91%);
 }
 
 .icon--gr {
@@ -366,6 +380,13 @@ footer {
     top: 19px;
     bottom: 7.37%;
 
+    cursor: pointer;
+
+}
+
+.icon--gr:hover {
+    /* filter: invert(63%) sepia(31%) saturate(5295%) hue-rotate(345deg) brightness(100%) contrast(92%); */
+    filter: invert(74%) sepia(54%) saturate(321%) hue-rotate(331deg) brightness(102%) contrast(91%);
 }
 
 .icon--gh {
@@ -377,4 +398,11 @@ footer {
     top: 19px;
     bottom: 7.32%;
 
+    cursor: pointer;
+
+}
+
+.icon--gh:hover {
+    /* filter: invert(63%) sepia(31%) saturate(5295%) hue-rotate(345deg) brightness(100%) contrast(92%); */
+    filter: invert(74%) sepia(54%) saturate(321%) hue-rotate(331deg) brightness(102%) contrast(91%);
 }
